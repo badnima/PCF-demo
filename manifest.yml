@@ -3,5 +3,5 @@ applications:
 - name: pcfdemo
   memory: 1GB 
   instances: 1
-  host: pcfdemo-${random-word}
+  host: pcfdemo-100
   path: ./target/pcfdemo.war
